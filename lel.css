@@ -735,6 +735,14 @@ margin: 20px;
     transition: 0.5s;
 
 }
+#footer{
+    background-color: white;
+    color:black;
+  }
+  .ftext{
+    font-family: 'Nunito', sans-serif;
+    margin: 1%;
+  }
 body{
     margin: 0px;
 }
@@ -1460,3 +1468,11 @@ margin: 20px;
     color: white;
     transition: 0.5s;
 }
+#cfooter{
+    background-color: white;
+    color:black;
+  }
+  .cftext{
+    font-family: 'Nunito', sans-serif;
+    margin: 1%;
+  }
