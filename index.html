@@ -2,35 +2,57 @@
 <html>
     <head>
         <title>Project Portfolio 3.0</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="WOT.js"></script>
                 <link rel="stylesheet" type="text/css" href="lel.css"></link>
           
         <style>
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 </style>
     </head>
     <body>
-        <div class="top-page">
-        <header><h3 class="txt1"><strong>Zhixin Cai</strong></h3></header>
-       </div>
+<div class="english">
+       <div class="tp">
+        <div id="header">
+            <strong class="heading" id="name">
+              <a href="#top">Zhixin Cai</a>
+            </strong>
+            <button class="ctranslate" id="rtext">
+                中文简体
+            </button>
+            <strong class="heading" id="rtext">
+              <a href="#contact">Contact</a>
+            </strong>
+      
+            <strong class="heading" id="rtext">
+              <a href="#projects"> Projects </a>
+            </strong>
+      
+            <strong class="heading" id="rtext">
+              <a href="#about-me">About Me </a>
+            </strong>
+          </div>    
         <div class="ma">
+           
             <p><h2><span class="computer">COMPUTER</span> <span class="science">SCIENCE</span> <span class="student">STUDENT</span></h2></p>
             <p><h2><span class="born">BORN</span> <span class="in">IN</span> <span class="china">CHINA,</span> <span class="living">LIVING</span> <span class="in2">IN</span> <span class="evansville">EVANSVILLE</span></h2></p>
             <p><h2><span class="now">NOW</span> <span class="available">AVAILABLE</span> <span class="near">NEAR</span> <span class="you">YOU</span></h2></p>
             </div>
-<div class="about-me">
+            <div class="lm"><a href="#about-me"><button class="btn2">Learn More</button></a></div>
+        </div>
+    </div>
+<div id="about-me">
     <div class="column"id="about-me1">
         <p><h2 class="t1">About Me</h2></p>
         <hr>
         <p><h4 class="body1">Zhixin Cai is a student that is currently attending Signature School, in Evansville, Indiana. Zhixin Cai is greatly interested in Biology and has aspirations to go to Purdue and take either the major Biochemistry or Biotech. He has attended the Nextech Catapult Program to learn more about coding itself and further prepare him for computer science classes in college.</h4></p>
+        <img class="zc"src="https://i.ibb.co/Hr4p5qx/jason.jpg" alt="jason">
     </div>
     <div class="column"id="about-me2">
-        <p><h2 class="t2">Hobbies</h2></p>
+        <p><h2 class="t2">Hobbies<h2></p>
         <hr>
-        <p><h4 class="body2">Born in Jinan, in the Shandong Province of China, Zhixin has many favorite activities that brings out his chinese culture. He loves watching cdramas(one of his favorite cdramas right now is "<a class="fiys" style="text-decoration:none" style="color: white" href="https://mydramalist.com/49241-falling-into-your-smile">Falling Into Your Smile</a>". He also enjoys playing Ping Pong and the 2009 hit game: <a class="mc" style="text-decoration: none"href="https://www.minecraft.net/en-us">Minecraft</a>.</h4></p>
+        <p><h4 class="body2">Born in Jinan, in the Shandong Province of China, Zhixin has many favorite activities that brings out his chinese culture. He loves watching cdramas(one of his favorite cdramas right now is "<a class="fiys" style="text-decoration:none" style="color: white" href="https://mydramalist.com/49241-falling-into-your-smile">Falling Into Your Smile</a>"). He also enjoys playing Ping Pong and the 2009 hit game: <a class="mc" style="text-decoration: none"href="https://www.minecraft.net/en-us">Minecraft</a>.</h4></p>
     </div>
     <div class="column"id="about-me3">
         <p><h2 class="t3">Skills</h2></p>
@@ -38,23 +60,150 @@
         <p><h4 class="body3"><img class="icon" src="https://i.ibb.co/RbtyHXH/My-project.png" alt="My-project"><img class="icon"src="https://i.ibb.co/6wMpnTt/My-project-1.png" alt="My-project-1"><img class="icon" src="https://i.ibb.co/kDXtjzp/My-project-2.png" alt="My-project-2"></h4></p>
     </div>
 </div>
-    <div class="projects"></div>
-    <div class="contact">
-    <h3 class="cm">Contact Me</h3>
-<div class="forms">
-    <p><input class="your-name"></p>
+    <div id="projects">
+        <h1 class="project-text">Portfolio</h1>
+        <div class="pictures">
+            <div class="project-card" id="business-card-project">
+                <a href="https://www.figma.com/community/file/1126247982833965439" target="_blank"><p class="ptext">Business Card</p></a>
+            </div>
+            <div class="translation-app" id="translation-app-project">
+                <a href="https://notlxdd.github.io/021-Guided-Practice--Translation/" target="_blank"><p class="ptext">Translation App</p></a>
+            </div>
+            <div class="social-media-website" id="social-media-website-project">
+                <a href="https://notlxdd.github.io/Tyler1-Gaming/" target="_blank"><p class="ptext">Social Media Project</p></a>
+            </div>
+            <div class="cyoag" id="cyoag-project">
+                <a href="https://notlxdd.github.io/Choose-Your-adventure-Project/" target="_blank"><p >Choose Your Own Adventure Game</p></a>
+            </div>
+    <!-- <p style="position: relative; top:200px;">Business Card</p><a href="https://www.figma.com/community/file/1126247982833965439" target="_blank"><img class="lt1"src="https://i.ibb.co/RCPZ0hB/business-card.png"></a>
+    <p style="position: relative; top:200px;">Translation App</p><a href="https://notlxdd.github.io/021-Guided-Practice--Translation/" target="_blank"><img class="lt2"src="https://i.ibb.co/4g7GvqM/translation-app-project.png"></a>
+    <p style="position: relative; top:200px;">Social Media Wesbite with partner</p><a href="https://notlxdd.github.io/Tyler1-Gaming/" target="_blank"><img class="lt3"src="https://i.ibb.co/YtHkTZZ/based.png"></a>
+    <p style="position: relative; top:200px;">Choose Your Own Adventure Game</p><a href="https://notlxdd.github.io/Choose-Your-adventure-Project/" target="_blank"><img class="lt4"src="https://i.ibb.co/R4mry9p/cyoag.png"></a> -->
 </div>
-<div class="forms">
-    <p><input class="your-phone"></p>
 </div>
-<div class="forms">
-    <p><input class="your-email"></p>
-</div>
-<div class="forms">
-    <p><input class="your-message"></p>
+    <div id="contact">
+        <div style="display: flex; justify-content: center;">
+            <aside></aside>
+            <h3 class="cm">Contact Me</h3>
+            <a href="https://github.com/notlxdd" target="_blank"><img class="git" src="https://i.ibb.co/cFttkHj/github.png" alt="github"></a>
+        </div>
+        <div class="c">
+            <div class="Lforms">
+                <form action="https://formspree.io/f/xayvgqrg" method="POST">
+                    <p><input type="text" name="phone"class="your-phone" placeholder="Phone Number"></p>
+                    <p><input type="text" name="email"class="your-email" placeholder="Email Address"></p>
+                    <p><input type="text" name="yourname"class="your-name" placeholder="Name"></p>
+            </div>
+        <div class="Rforms">
+            <p><textarea type="text" name="message" style="font-size: 20px" class="your-message" placeholder="Your Message"></textarea></p>
+        </div>
     </div>
+    <div class="submit-message">
+        <button type="submit" class="btn">Send Message</button>
     </div>
-  
+    </form>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<div class="chinese">
+    <div class="ctp">
+        <div id="cheader">
+            <strong class="cheading" id="cname">
+              <a href="#ctop">蔡知新</a>
+            </strong>
+            <strong class="etranslate" id="crtext">
+                English
+            </strong>
+            <strong class="cheading" id="crtext">
+              <a href="#ccontact">联系方式</a>
+            </strong>
+      
+            <strong class="cheading" id="crtext">
+              <a href="#cprojects"> 作品 </a>
+            </strong>
+      
+            <strong class="cheading" id="crtext">
+              <a href="#cabout-me">关于我的信息</a>
+            </strong>
+          </div>    
+        <div class="cma">
+           
+            <p><h2><span class="computer">计算机</span><span class="science">专业</span><span class="student">的学生</span></h2></p>
+            <p><h2><span class="born">出生</span><span class="in">在</span><span class="china">中国,</span> <span class="living">现在住</span><span class="in2">在</span><span class="evansville">爱城</span></h2></p>
+            <p><h2><span class="now">现在</span><span class="available">可以被雇佣</span> <span class="near">离你</span> <span class="you">附近</span></h2></p>
+            </div>
+            <div class="lm"><a href="#cabout-me"><button class="btn2">我的信息和证明</button></a></div>
+        </div>
+    </div>
+<div id="cabout-me">
+    <div class="ccolumn"id="cabout-me1">
+        <p><h2 class="ct1">对于我的信息</h2></p>
+        <hr>
+        <p><h4 class="cbody1">蔡知新是一个3.6GPA的高中学生，他现在在上Signature在印第安纳州的爱城。他很喜欢学生物学，而且想去Purdue读本科。他想学的大学专业是生物化学或者生物技术。他参加过Nextech Catapult来学计算机。这个夏令营可以为大学课程的帮助。</h4></p>
+        <img class="czc"src="https://i.ibb.co/Hr4p5qx/jason.jpg" alt="jason">
+    </div>
+    <div class="ccolumn"id="cabout-me2">
+        <p><h2 class="ct2">我的爱好<h2></p>
+        <hr>
+        <p><h4 class="cbody2">蔡知新是在济南出生的。知新很喜欢中国的电视剧（他最喜欢的中国电视剧现在是 “<a class="cfiys" style="text-decoration:none" style="color: white" href="https://mydramalist.com/49241-falling-into-your-smile">你的微笑很美</a>"). 他也很喜欢玩乒乓球和2009出版的: <a class="cmc" style="text-decoration: none"href="https://www.minecraft.net/en-us">我的世界</a>.</h4></p>
+    </div>
+    <div class="ccolumn"id="cabout-me3">
+        <p><h2 class="ct3">我的技能</h2></p>
+        <hr>
+        <p><h4 class="cbody3"><img class="icon" src="https://i.ibb.co/RbtyHXH/My-project.png" alt="My-project"><img class="icon"src="https://i.ibb.co/6wMpnTt/My-project-1.png" alt="My-project-1"><img class="cicon" src="https://i.ibb.co/kDXtjzp/My-project-2.png" alt="My-project-2"></h4></p>
+    </div>
+</div>
+    <div id="cprojects">
+        <h1 class="cproject-text">作品</h1>
+        <div class="cpictures">
+            <div class="cproject-card" id="cbusiness-card-project">
+                <a href="https://www.figma.com/community/file/1126247982833965439" target="_blank"><p class="ptext">工作卡</p></a>
+            </div>
+            <div class="ctranslation-app" id="ctranslation-app-project">
+                <a href="https://notlxdd.github.io/021-Guided-Practice--Translation/" target="_blank"><p class="ptext">翻译的APP</p></a>
+            </div>
+            <div class="csocial-media-website" id="csocial-media-website-project">
+                <a href="https://notlxdd.github.io/Tyler1-Gaming/" target="_blank"><p class="ptext">社交媒体的网站</p></a>
+            </div>
+            <div class="ccyoag" id="ccyoag-project">
+                <a href="https://notlxdd.github.io/Choose-Your-adventure-Project/" target="_blank"><p>自己选择的游戏</p></a>
+            </div>
+    <!-- <p style="position: relative; top:200px;">Business Card</p><a href="https://www.figma.com/community/file/1126247982833965439" target="_blank"><img class="lt1"src="https://i.ibb.co/RCPZ0hB/business-card.png"></a>
+    <p style="position: relative; top:200px;">Translation App</p><a href="https://notlxdd.github.io/021-Guided-Practice--Translation/" target="_blank"><img class="lt2"src="https://i.ibb.co/4g7GvqM/translation-app-project.png"></a>
+    <p style="position: relative; top:200px;">Social Media Wesbite with partner</p><a href="https://notlxdd.github.io/Tyler1-Gaming/" target="_blank"><img class="lt3"src="https://i.ibb.co/YtHkTZZ/based.png"></a>
+    <p style="position: relative; top:200px;">Choose Your Own Adventure Game</p><a href="https://notlxdd.github.io/Choose-Your-adventure-Project/" target="_blank"><img class="lt4"src="https://i.ibb.co/R4mry9p/cyoag.png"></a> -->
+</div>
+</div>
+    <div id="ccontact">
+        <div style="display: flex; justify-content: center;">
+            <aside></aside>
+            <h3 class="ccm">联系我</h3>
+            <a href="https://github.com/notlxdd" target="_blank"><img class="cgit" src="https://i.ibb.co/cFttkHj/github.png" alt="github"></a>
+        </div>
+        <div class="cc">
+            <div class="cLforms">
+                <form action="https://formspree.io/f/xayvgqrg" method="POST">
+                    <p><input type="text" name="phone"class="cyour-phone" placeholder="你的手机号码"></p>
+                    <p><input type="text" name="email"class="cyour-email" placeholder="你的电子邮件"></p>
+                    <p><input type="text" name="yourname"class="cyour-name" placeholder="你的名字"></p>
+            </div>
+        <div class="cRforms">
+            <p><textarea type="text" name="message" style="font-size: 20px" class="cyour-message" placeholder="你的信息"></textarea></p>
+        </div>
+    </div>
+    <div class="csubmit-message">
+        <button type="submit" class="cbtn">发信息</button>
+    </div>
+    </form>
+ 
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="WOT.js" type="text/javascript"></script>
 </body>
 </html>
     

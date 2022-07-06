@@ -1,0 +1,29 @@
+$(".chinese").hide();
+$("#cabout-me").hide();
+$("#cprojects").hide();
+$("#ccontact").hide();
+$(".ctp").hide();
+$(".ctranslate").click(function(){
+    $(".english").fadeOut();
+    $("#about-me").fadeOut();
+    $("#projects").fadeOut();
+    $("#contact").fadeOut();
+    $("#cheader").fadeIn();
+    $("#cabout-me").fadeIn();
+    $("#cprojects").fadeIn();
+    $("#ccontact").fadeIn();
+    $(".ctp").fadeIn();
+    $(".chinese").fadeIn();
+});
+$(".etranslate").click(function(){
+    $(".chinese").fadeOut();
+    $("#cabout-me").fadeOut();
+    $("#cprojects").fadeOut();
+    $("#ccontact").fadeOut();
+    $("#header").fadeIn();
+    $("#about-me").fadeIn();
+    $("#projects").fadeIn();
+    $("#contact").fadeIn();
+    $(".tp").fadeIn();
+    $(".english").fadeIn();
+});
