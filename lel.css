@@ -455,6 +455,26 @@ html{
         visibility: visible;
         opacity: 1;
     }
+ 
+}
+.col{
+    width: 50%;
+    text-align: center;
+    height: 400px;
+}
+#am{
+    display: flex;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    border: solid black 2px;
+    background-color: #000080;
+
+}
+.am-text{
+    float: left;
+    border: solid black 2px;
 
 }
 #about-me{
@@ -473,32 +493,29 @@ margin-bottom: 0px;
 }
 .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
     text-align:center;
-    height: 600px;
+    height: 500px;
   }
-#about-me1{
+
+.am-text{
+    padding: 20px;
+    width: 50%
+
+}
+.zc{
+    width: 325px;
+    height: 400px;
+    border-radius: 200px;
+    border: solid black 5px;
+    
+}
+#about-me2{
     order: 1;
     font-family: 'Source Serif Pro', serif;
     color: white;
     margin: 0px;
-    padding: 5px;
-    background-color: #000080 ;
-    border: solid black 2px;
-    
-}
-.zc{
-    width: 150px;
-    height: 200px;
-    border-radius: 200px;
-    border: solid black;
-}
-#about-me2{
-    order: 2;
-    font-family: 'Source Serif Pro', serif;
-    color: white;
-    margin: 0px;
-    padding: 5px;
+    padding: 20px;
     border: solid black 2px;
     background-color: #008080;
     
@@ -512,11 +529,11 @@ margin-bottom: 0px;
     text-decoration: none;
 }
 #about-me3{
-    order:3;
+    order:2;
     font-family: 'Source Serif Pro', serif;
     color: white;
     margin: 0px;
-    padding: 5px;
+    padding: 20px;
     border: solid black 2px;
     background-color: #000080;
 }
@@ -527,6 +544,7 @@ height: 200px;
 
 .t1{
     text-align: center;
+    
     
     }
 .t2{
@@ -640,6 +658,33 @@ color: white;
 }
 #cyoag-project {
     background-image: url("https://i.ibb.co/R4mry9p/cyoag.png");
+}
+.ss-animation{
+    margin-top: -2.5%;
+    background-color: floralwhite;
+    height: 400px;
+}
+.ss-text{
+    text-align:center;
+    font-family: 'Karla', sans-serif;
+}
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 250px; 
+  height: 250px; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+.poic{
+    text-align: center;
+}
+#slideshow > .poic { 
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
 }
  /* .lt1{
     width: 500px;
@@ -1228,32 +1273,42 @@ margin-bottom: 0px;
 }
 .ccolumn {
     float: left;
-    width: 33.33%;
+    width: 50%;
     text-align:center;
     height: 600px;
   }
-#cabout-me1{
-    order: 1;
+.ccol{
+    width: 50%;
+    text-align: center;
+    height: 400px;
+}
+#cam{
+    display: flex;
     font-family: 'Source Serif Pro', serif;
     color: white;
     margin: 0px;
-    padding: 5px;
-    background-color: #000080 ;
+    padding: 20px;
     border: solid black 2px;
-    
+    background-color: #000080;
+
+}
+.cam-text{
+    float: left;
+    border: solid black 2px;
+
 }
 .czc{
     width: 150px;
     height: 200px;
     border-radius: 200px;
-    border: solid black;
+    border: solid black 5px;
 }
 #cabout-me2{
     order: 2;
     font-family: 'Source Serif Pro', serif;
     color: white;
     margin: 0px;
-    padding: 5px;
+    padding: 20px;
     border: solid black 2px;
     background-color: #008080;
     
@@ -1271,7 +1326,7 @@ margin-bottom: 0px;
     font-family: 'Source Serif Pro', serif;
     color: white;
     margin: 0px;
-    padding: 5px;
+    padding: 20px;
     border: solid black 2px;
     background-color: #000080;
 }
@@ -1395,6 +1450,33 @@ color: white;
 }
 #ccyoag-project {
     background-image: url("https://i.ibb.co/R4mry9p/cyoag.png");
+}
+.chiss-animation{
+    margin-top: -2.5%;
+    background-color: floralwhite;
+    height: 400px;
+}
+.chiss-text{
+    text-align:center;
+    font-family: 'Karla', sans-serif;
+}
+#cslideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 250px; 
+  height: 250px; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+.cpoic{
+    text-align: center;
+}
+#cslideshow > .cpoic { 
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
 }
 
 #ccontact{
