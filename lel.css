@@ -69,7 +69,7 @@ html{
     border: none;
     border-radius: 300px;
     font-size: 25px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-top: -2.5%;
     margin-bottom: 50px;
@@ -464,7 +464,8 @@ html{
 }
 #am{
     display: flex;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
     color: white;
     margin: 0px;
     padding: 20px;
@@ -512,7 +513,7 @@ margin-bottom: 0px;
 }
 #about-me2{
     order: 1;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     margin: 0px;
     padding: 20px;
@@ -530,7 +531,7 @@ margin-bottom: 0px;
 }
 #about-me3{
     order:2;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     margin: 0px;
     padding: 20px;
@@ -717,7 +718,7 @@ color: white;
 .cm{
     display: flex;
     justify-content: center;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 50px;
     color: white;
     
